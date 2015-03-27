@@ -1,0 +1,124 @@
+html {
+    font-family: Verdana, Arial, Helvetica, "Droid sans", sans-serif;
+    font-size: 100%;  
+    line-height: 1.5;
+    background-color: #fff;
+    color: #000;
+}
+
+/* Accessibility - hide the skip links 
+Method suggested by Chris MIlls via http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/
+*/
+
+.hidden{
+  position: absolute;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Typography */
+
+p   {
+    font-size: 1.125rem; /* =18px */
+    }
+
+/* Typography */
+h1  {
+    font-size: 1.75rem; /* =28px */
+    letter-spacing: 0.05em;
+    }
+
+h2  {
+    font-size: 1.5rem;  /* =24px */
+    }
+
+/* REM calculator https://offroadcode.com/prototypes/rem-calculator/ */
+
+
+/* Containers */
+
+.container {
+    margin: 0 auto;
+    max-width: 46rem;
+    width: 90%;
+}
+
+header {
+    background-color: #;
+    padding: ; /* Adjust as required. */
+}
+
+nav {
+    padding: ;
+}
+
+main {
+    padding: ;
+}
+
+footer {
+    padding: ;
+    background-color: #;
+}
+/* Navigation */
+
+nav li {
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin-left: 0.5rem;
+    /* Adjust all above as required. */
+}
+
+/* Table */
+
+table, td {
+    border: 1px solid black;
+}
+
+th {
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+/* Media */
+
+img {
+    max-width: 100%;
+    height: auto; 
+}
+/* Makes your images responsive */
+
+
+/* Links - General */
+a { 
+    text-decoration:none; ;
+    color:# ;
+}
+a:visited {
+    color:# ;
+}
+a:hover {
+    text-decoration:underline;
+    color:# ;
+}
+a:focus {
+    outline:thick dotted;
+    color:# ;
+}
+
+/* Links - Navigation - if the background colour for 
+your navigation is different to the body of text, 
+the link colours may also need to change to maintain a good contrast. */
+nav a { 
+        color:# ;
+}
+
+nav a:visited {
+    color:# ;
+}
+
+/**
+ * Created with advice and support from @csswizardry and @craftedpixelz 
+ */
